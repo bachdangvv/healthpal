@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>HealthPal.Application</RootNamespace>
+    <AssemblyName>HealthPal.Application</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HealthPal.Domain\HealthPal.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="TimeZoneConverter" Version="6.1.0" />
+  </ItemGroup>
+</Project>

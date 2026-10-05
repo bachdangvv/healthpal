@@ -1,0 +1,11 @@
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2
+joblib==1.6.0
+onnx==1.23.0
+onnxruntime==1.30.0
+skl2onnx==1.20.0
+xgboost==3.4.1
+onnxmltools==1.16.0

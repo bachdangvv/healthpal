@@ -1,0 +1,34 @@
+# Local environments and generated Python files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Editors and operating-system metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Raw/private source data and generated training outputs
+/health_connect_example/
+/health_connect_example_2/
+/model_training/*_unprocessed.csv
+/model_training/artifacts/
+
+# Internal implementation notes and progress logs
+/codex_implement_plan.md
+/fix-bug-*-plan.md
+/fix-bug-*-progress.md
+/fix-grok-bug.md
+/grok_progress.md
+/grok-fix-bug*-progress.md

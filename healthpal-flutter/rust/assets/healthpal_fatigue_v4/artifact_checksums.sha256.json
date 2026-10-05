@@ -1,0 +1,14 @@
+{
+  "dataset_manifest.json": "8baa68432e834c2f76fc54c27ed04f719bdd58fd9d95f393d894229e69d28d90",
+  "healthpal_fatigue_v4.joblib": "ef486a794abac02ad12d90dc414d3829ba8016a5c7f39352aee515c288244119",
+  "healthpal_fatigue_v4.onnx": "9e8cda2f7fc185a11f657c0c48107f470af487adb10a4c5d642dd85bad32c6da",
+  "healthpal_fatigue_v4_config.json": "021ba42453687d861547015f94e3d53ef41f0d441e54759c4ecde6cea821ab78",
+  "healthpal_fatigue_v4_metrics.json": "2876735e467e7bd36df2333349727affda5783eff0ae3f890071db786e8587e5",
+  "locked_candidate_comparison.csv": "c56cae8469459b55ac2891ae3a2279d65c96cdab1d08140a92d6338f7c0fa696",
+  "locked_nested_fold_metrics.csv": "b6e2716f7265f7fad2b8572949620137d419691ed10d04b501642458424a2032",
+  "MODEL_CARD_V4.md": "5412d8a45625261a6b6e5079ddad090101bae0325352604d31299b27ca94579b",
+  "nested_oof_predictions.csv": "f0ea1b0f78df9b21a195054595b2fbb26fc8c893abdce53d90f9540707e3a6e4",
+  "selection_policy_fold_metrics.csv": "82c4b95f7337455521b7609fc3ccd0ad7ae64b849050108224c13689942b5b65",
+  "training_dataset.csv": "321f0ae100e71bf7d696d5d0f84d05d6babe8eaaf5f20407d47b14104b85e19a",
+  "validation_report_v4.png": "73f5946479862bccceeb73f35fc0037516ce5d7e8b8509122e7e05bb3b9c56fc"
+}

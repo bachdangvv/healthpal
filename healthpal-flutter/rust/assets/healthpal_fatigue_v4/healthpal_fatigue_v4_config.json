@@ -1,0 +1,52 @@
+{
+  "model_name": "healthpal_fatigue_v4",
+  "target": "TIRED",
+  "product_concept": "fatigue_risk",
+  "candidate_id": "A",
+  "candidate_label": "6h low-activity HR + Logistic",
+  "feature_spec": "w6_low_activity_250",
+  "model_family": "logistic",
+  "model_parameter": {
+    "C": 10.0
+  },
+  "feature_order": [
+    "h6_hr_mean",
+    "h6_hr_std",
+    "h6_hr_median",
+    "h6_hr_p25",
+    "h6_hr_p75",
+    "h6_low250_hr_mean",
+    "h6_low250_hr_std",
+    "h6_low250_hours",
+    "h6_hr_mean_minus_rhr",
+    "resting_hr",
+    "sleep_minutes",
+    "h6_steps_sum"
+  ],
+  "primary_window_hours": 6,
+  "window_interval": "[T-window,T)",
+  "daily_alignment": "previous_calendar_day_D_minus_1",
+  "minimum_hourly_coverage": {
+    "2": 1,
+    "4": 2,
+    "6": 3,
+    "12": 6
+  },
+  "low_activity_steps_per_hour_threshold": 250,
+  "requires_binary_exercise_session_mask": false,
+  "missing_base_data_policy": "return_insufficient_data",
+  "calibration": {
+    "method": "sigmoid_on_logit_probability",
+    "slope": 0.7806493861342522,
+    "intercept": -1.2659313281484506,
+    "formula": "sigmoid(slope * logit(clamp(base_probability,1e-6,1-1e-6)) + intercept)"
+  },
+  "decision_threshold": {
+    "threshold": 0.18170608515558545,
+    "training_f1": 0.4099378881987578,
+    "training_precision": 0.27261462205700127,
+    "training_recall": 0.8260325406758448,
+    "minimum_recall_constraint": 0.7
+  },
+  "onnx_output": "uncalibrated_positive_class_probability"
+}

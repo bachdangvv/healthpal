@@ -1,0 +1,13 @@
+**/bin/
+**/obj/
+**/.vs/
+**/.idea/
+**/TestResults/
+**/*.user
+.git/
+.gitignore
+.env
+.env.*
+README.md
+openapi/
+tests/

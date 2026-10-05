@@ -1,0 +1,27 @@
+{
+  "state": "no_data",
+  "availability": "available",
+  "permissions": {
+    "granted": [
+      "steps",
+      "sleep",
+      "heartRate",
+      "restingHeartRate",
+      "activeCalories",
+      "exercise"
+    ],
+    "missing": []
+  },
+  "lastSyncedAtUtc": "2026-09-30T10:00:00Z",
+  "latestDataAtUtc": null,
+  "ingestion": {
+    "startUtc": "2026-09-28T10:00:00Z",
+    "endUtc": "2026-09-30T10:00:00Z",
+    "heartRateSamples": [],
+    "stepIntervals": [],
+    "restingHeartRateRecords": [],
+    "sleepSessions": [],
+    "exerciseSessions": [],
+    "activeCaloriesIntervals": []
+  }
+}

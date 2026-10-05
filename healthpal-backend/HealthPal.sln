@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A2E62C33-C454-4ED1-9469-518F7B52F84F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthPal.Domain", "src\HealthPal.Domain\HealthPal.Domain.csproj", "{DD2D570D-DD27-4FCF-97F4-1AFC29B5753D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthPal.Application", "src\HealthPal.Application\HealthPal.Application.csproj", "{0DCF7B4F-C94D-4154-A24A-1DAB6BF9AE2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthPal.Infrastructure", "src\HealthPal.Infrastructure\HealthPal.Infrastructure.csproj", "{4BFB9711-B89C-456C-8EEC-64307151ABA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthPal.Api", "src\HealthPal.Api\HealthPal.Api.csproj", "{0FC383FD-F7D8-4D59-ADAB-89FE3F013A04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5B220866-325F-4458-A4AC-AD9589EE827D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthPal.UnitTests", "tests\HealthPal.UnitTests\HealthPal.UnitTests.csproj", "{8110E24B-EC62-4028-94ED-02F6A00862A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthPal.IntegrationTests", "tests\HealthPal.IntegrationTests\HealthPal.IntegrationTests.csproj", "{AC999608-6251-4943-9759-70914396E2A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD2D570D-DD27-4FCF-97F4-1AFC29B5753D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2D570D-DD27-4FCF-97F4-1AFC29B5753D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2D570D-DD27-4FCF-97F4-1AFC29B5753D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2D570D-DD27-4FCF-97F4-1AFC29B5753D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DCF7B4F-C94D-4154-A24A-1DAB6BF9AE2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCF7B4F-C94D-4154-A24A-1DAB6BF9AE2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCF7B4F-C94D-4154-A24A-1DAB6BF9AE2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCF7B4F-C94D-4154-A24A-1DAB6BF9AE2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFB9711-B89C-456C-8EEC-64307151ABA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFB9711-B89C-456C-8EEC-64307151ABA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFB9711-B89C-456C-8EEC-64307151ABA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFB9711-B89C-456C-8EEC-64307151ABA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC383FD-F7D8-4D59-ADAB-89FE3F013A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC383FD-F7D8-4D59-ADAB-89FE3F013A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC383FD-F7D8-4D59-ADAB-89FE3F013A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC383FD-F7D8-4D59-ADAB-89FE3F013A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8110E24B-EC62-4028-94ED-02F6A00862A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8110E24B-EC62-4028-94ED-02F6A00862A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8110E24B-EC62-4028-94ED-02F6A00862A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8110E24B-EC62-4028-94ED-02F6A00862A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC999608-6251-4943-9759-70914396E2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC999608-6251-4943-9759-70914396E2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC999608-6251-4943-9759-70914396E2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC999608-6251-4943-9759-70914396E2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD2D570D-DD27-4FCF-97F4-1AFC29B5753D} = {A2E62C33-C454-4ED1-9469-518F7B52F84F}
+		{0DCF7B4F-C94D-4154-A24A-1DAB6BF9AE2F} = {A2E62C33-C454-4ED1-9469-518F7B52F84F}
+		{4BFB9711-B89C-456C-8EEC-64307151ABA5} = {A2E62C33-C454-4ED1-9469-518F7B52F84F}
+		{0FC383FD-F7D8-4D59-ADAB-89FE3F013A04} = {A2E62C33-C454-4ED1-9469-518F7B52F84F}
+		{8110E24B-EC62-4028-94ED-02F6A00862A0} = {5B220866-325F-4458-A4AC-AD9589EE827D}
+		{AC999608-6251-4943-9759-70914396E2A4} = {5B220866-325F-4458-A4AC-AD9589EE827D}
+	EndGlobalSection
+EndGlobal

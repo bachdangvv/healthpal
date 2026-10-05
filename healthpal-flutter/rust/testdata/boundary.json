@@ -1,0 +1,117 @@
+{
+  "hour_aligned": {
+    "request": {
+      "evaluation_time_utc_ms": 1621936800000,
+      "timezone_offset_minutes": 0,
+      "heart_rate_samples": [
+        {
+          "timestamp_utc_ms": 1621915200000,
+          "bpm": 70.0
+        },
+        {
+          "timestamp_utc_ms": 1621918800000,
+          "bpm": 72.0
+        },
+        {
+          "timestamp_utc_ms": 1621922400000,
+          "bpm": 74.0
+        },
+        {
+          "timestamp_utc_ms": 1621926000000,
+          "bpm": 76.0
+        },
+        {
+          "timestamp_utc_ms": 1621929600000,
+          "bpm": 78.0
+        },
+        {
+          "timestamp_utc_ms": 1621933200000,
+          "bpm": 80.0
+        }
+      ],
+      "step_intervals": [
+        {
+          "start_utc_ms": 1621915200000,
+          "end_utc_ms": 1621918800000,
+          "count": 100.0
+        },
+        {
+          "start_utc_ms": 1621918800000,
+          "end_utc_ms": 1621922400000,
+          "count": 200.0
+        },
+        {
+          "start_utc_ms": 1621922400000,
+          "end_utc_ms": 1621926000000,
+          "count": 250.0
+        },
+        {
+          "start_utc_ms": 1621926000000,
+          "end_utc_ms": 1621929600000,
+          "count": 251.0
+        },
+        {
+          "start_utc_ms": 1621929600000,
+          "end_utc_ms": 1621933200000,
+          "count": 0.0
+        },
+        {
+          "start_utc_ms": 1621933200000,
+          "end_utc_ms": 1621936800000,
+          "count": 400.0
+        }
+      ],
+      "resting_hr_records": [
+        {
+          "recorded_at_utc_ms": 1621893600000,
+          "bpm": 60.0,
+          "local_date": "2021-05-24",
+          "record_id": "rhr-d1",
+          "source_id": "fitbit"
+        }
+      ],
+      "sleep_sessions": [
+        {
+          "record_id": "sleep-d1",
+          "start_utc_ms": 1621893600000,
+          "end_utc_ms": 1621918800000,
+          "health_day": "2021-05-24",
+          "stages": [],
+          "asleep_minutes_aggregate": 420.0,
+          "source_id": "fitbit",
+          "modified_at_utc_ms": 1621908000000
+        }
+      ],
+      "exercise_sessions": [],
+      "data_watermark_utc_ms": 1621936800000,
+      "heart_rate_permission": true,
+      "steps_permission": true,
+      "sleep_permission": true,
+      "resting_hr_permission": true
+    },
+    "expected_features": {
+      "h6_hr_mean": 75.0,
+      "h6_hr_std": 3.415650255319866,
+      "h6_hr_median": 75.0,
+      "h6_hr_p25": 72.5,
+      "h6_hr_p75": 77.5,
+      "h6_low250_hr_mean": 73.5,
+      "h6_low250_hr_std": 2.958039891549808,
+      "h6_low250_hours": 4.0,
+      "h6_hr_mean_minus_rhr": 15.0,
+      "resting_hr": 60.0,
+      "sleep_minutes": 420.0,
+      "h6_steps_sum": 1201.0
+    },
+    "notes": "T-6h included, T excluded, low-activity includes steps==250"
+  },
+  "sample_at_t_excluded": {
+    "evaluation_time_utc_ms": 1621936800000,
+    "extra_hr_at_t_bpm": 180.0
+  },
+  "midnight": {
+    "evaluation_time_utc_ms": 1621987200000,
+    "timezone_offset_minutes": 0,
+    "d_minus_1": "2021-05-25"
+  }
+}

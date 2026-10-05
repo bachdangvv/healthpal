@@ -1,0 +1,2992 @@
+{
+  "state": "granted",
+  "availability": "available",
+  "permissions": {
+    "granted": [
+      "steps",
+      "sleep",
+      "heartRate",
+      "restingHeartRate",
+      "activeCalories",
+      "exercise"
+    ],
+    "missing": []
+  },
+  "lastSyncedAtUtc": "2026-09-30T10:00:00Z",
+  "latestDataAtUtc": "2026-09-30T09:48:00Z",
+  "ingestion": {
+    "startUtc": "2026-09-28T10:00:00Z",
+    "endUtc": "2026-09-30T10:00:00Z",
+    "heartRateSamples": [
+      {
+        "recordId": "hr-2026-09-28T10:05:00Z",
+        "startUtc": "2026-09-28T10:05:00Z",
+        "endUtc": "2026-09-28T10:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 68.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T10:25:00Z",
+        "startUtc": "2026-09-28T10:25:00Z",
+        "endUtc": "2026-09-28T10:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T10:45:00Z",
+        "startUtc": "2026-09-28T10:45:00Z",
+        "endUtc": "2026-09-28T10:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T11:05:00Z",
+        "startUtc": "2026-09-28T11:05:00Z",
+        "endUtc": "2026-09-28T11:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 69.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T11:25:00Z",
+        "startUtc": "2026-09-28T11:25:00Z",
+        "endUtc": "2026-09-28T11:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T11:45:00Z",
+        "startUtc": "2026-09-28T11:45:00Z",
+        "endUtc": "2026-09-28T11:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T12:05:00Z",
+        "startUtc": "2026-09-28T12:05:00Z",
+        "endUtc": "2026-09-28T12:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T12:25:00Z",
+        "startUtc": "2026-09-28T12:25:00Z",
+        "endUtc": "2026-09-28T12:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T12:45:00Z",
+        "startUtc": "2026-09-28T12:45:00Z",
+        "endUtc": "2026-09-28T12:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T13:05:00Z",
+        "startUtc": "2026-09-28T13:05:00Z",
+        "endUtc": "2026-09-28T13:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T13:25:00Z",
+        "startUtc": "2026-09-28T13:25:00Z",
+        "endUtc": "2026-09-28T13:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T13:45:00Z",
+        "startUtc": "2026-09-28T13:45:00Z",
+        "endUtc": "2026-09-28T13:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T14:05:00Z",
+        "startUtc": "2026-09-28T14:05:00Z",
+        "endUtc": "2026-09-28T14:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T14:25:00Z",
+        "startUtc": "2026-09-28T14:25:00Z",
+        "endUtc": "2026-09-28T14:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 76.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T14:45:00Z",
+        "startUtc": "2026-09-28T14:45:00Z",
+        "endUtc": "2026-09-28T14:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T15:05:00Z",
+        "startUtc": "2026-09-28T15:05:00Z",
+        "endUtc": "2026-09-28T15:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T15:25:00Z",
+        "startUtc": "2026-09-28T15:25:00Z",
+        "endUtc": "2026-09-28T15:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T15:45:00Z",
+        "startUtc": "2026-09-28T15:45:00Z",
+        "endUtc": "2026-09-28T15:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T16:05:00Z",
+        "startUtc": "2026-09-28T16:05:00Z",
+        "endUtc": "2026-09-28T16:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T16:25:00Z",
+        "startUtc": "2026-09-28T16:25:00Z",
+        "endUtc": "2026-09-28T16:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T16:45:00Z",
+        "startUtc": "2026-09-28T16:45:00Z",
+        "endUtc": "2026-09-28T16:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T17:05:00Z",
+        "startUtc": "2026-09-28T17:05:00Z",
+        "endUtc": "2026-09-28T17:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 68.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T17:25:00Z",
+        "startUtc": "2026-09-28T17:25:00Z",
+        "endUtc": "2026-09-28T17:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T17:45:00Z",
+        "startUtc": "2026-09-28T17:45:00Z",
+        "endUtc": "2026-09-28T17:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T18:05:00Z",
+        "startUtc": "2026-09-28T18:05:00Z",
+        "endUtc": "2026-09-28T18:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 69.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T18:25:00Z",
+        "startUtc": "2026-09-28T18:25:00Z",
+        "endUtc": "2026-09-28T18:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T18:45:00Z",
+        "startUtc": "2026-09-28T18:45:00Z",
+        "endUtc": "2026-09-28T18:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T19:05:00Z",
+        "startUtc": "2026-09-28T19:05:00Z",
+        "endUtc": "2026-09-28T19:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T19:25:00Z",
+        "startUtc": "2026-09-28T19:25:00Z",
+        "endUtc": "2026-09-28T19:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 76.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T19:45:00Z",
+        "startUtc": "2026-09-28T19:45:00Z",
+        "endUtc": "2026-09-28T19:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T20:05:00Z",
+        "startUtc": "2026-09-28T20:05:00Z",
+        "endUtc": "2026-09-28T20:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T20:25:00Z",
+        "startUtc": "2026-09-28T20:25:00Z",
+        "endUtc": "2026-09-28T20:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T20:45:00Z",
+        "startUtc": "2026-09-28T20:45:00Z",
+        "endUtc": "2026-09-28T20:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T21:05:00Z",
+        "startUtc": "2026-09-28T21:05:00Z",
+        "endUtc": "2026-09-28T21:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T21:25:00Z",
+        "startUtc": "2026-09-28T21:25:00Z",
+        "endUtc": "2026-09-28T21:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T21:45:00Z",
+        "startUtc": "2026-09-28T21:45:00Z",
+        "endUtc": "2026-09-28T21:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T22:05:00Z",
+        "startUtc": "2026-09-28T22:05:00Z",
+        "endUtc": "2026-09-28T22:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T22:25:00Z",
+        "startUtc": "2026-09-28T22:25:00Z",
+        "endUtc": "2026-09-28T22:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T22:45:00Z",
+        "startUtc": "2026-09-28T22:45:00Z",
+        "endUtc": "2026-09-28T22:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T23:05:00Z",
+        "startUtc": "2026-09-28T23:05:00Z",
+        "endUtc": "2026-09-28T23:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T23:25:00Z",
+        "startUtc": "2026-09-28T23:25:00Z",
+        "endUtc": "2026-09-28T23:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-28T23:45:00Z",
+        "startUtc": "2026-09-28T23:45:00Z",
+        "endUtc": "2026-09-28T23:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T00:05:00Z",
+        "startUtc": "2026-09-29T00:05:00Z",
+        "endUtc": "2026-09-29T00:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 68.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T00:25:00Z",
+        "startUtc": "2026-09-29T00:25:00Z",
+        "endUtc": "2026-09-29T00:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 76.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T00:45:00Z",
+        "startUtc": "2026-09-29T00:45:00Z",
+        "endUtc": "2026-09-29T00:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T01:05:00Z",
+        "startUtc": "2026-09-29T01:05:00Z",
+        "endUtc": "2026-09-29T01:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 69.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T01:25:00Z",
+        "startUtc": "2026-09-29T01:25:00Z",
+        "endUtc": "2026-09-29T01:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T01:45:00Z",
+        "startUtc": "2026-09-29T01:45:00Z",
+        "endUtc": "2026-09-29T01:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T02:05:00Z",
+        "startUtc": "2026-09-29T02:05:00Z",
+        "endUtc": "2026-09-29T02:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T02:25:00Z",
+        "startUtc": "2026-09-29T02:25:00Z",
+        "endUtc": "2026-09-29T02:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T02:45:00Z",
+        "startUtc": "2026-09-29T02:45:00Z",
+        "endUtc": "2026-09-29T02:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T03:05:00Z",
+        "startUtc": "2026-09-29T03:05:00Z",
+        "endUtc": "2026-09-29T03:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T03:25:00Z",
+        "startUtc": "2026-09-29T03:25:00Z",
+        "endUtc": "2026-09-29T03:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T03:45:00Z",
+        "startUtc": "2026-09-29T03:45:00Z",
+        "endUtc": "2026-09-29T03:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T04:05:00Z",
+        "startUtc": "2026-09-29T04:05:00Z",
+        "endUtc": "2026-09-29T04:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T04:25:00Z",
+        "startUtc": "2026-09-29T04:25:00Z",
+        "endUtc": "2026-09-29T04:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T04:45:00Z",
+        "startUtc": "2026-09-29T04:45:00Z",
+        "endUtc": "2026-09-29T04:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T05:05:00Z",
+        "startUtc": "2026-09-29T05:05:00Z",
+        "endUtc": "2026-09-29T05:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T05:25:00Z",
+        "startUtc": "2026-09-29T05:25:00Z",
+        "endUtc": "2026-09-29T05:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 76.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T05:45:00Z",
+        "startUtc": "2026-09-29T05:45:00Z",
+        "endUtc": "2026-09-29T05:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T06:05:00Z",
+        "startUtc": "2026-09-29T06:05:00Z",
+        "endUtc": "2026-09-29T06:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T06:25:00Z",
+        "startUtc": "2026-09-29T06:25:00Z",
+        "endUtc": "2026-09-29T06:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T06:45:00Z",
+        "startUtc": "2026-09-29T06:45:00Z",
+        "endUtc": "2026-09-29T06:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T07:05:00Z",
+        "startUtc": "2026-09-29T07:05:00Z",
+        "endUtc": "2026-09-29T07:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 68.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T07:25:00Z",
+        "startUtc": "2026-09-29T07:25:00Z",
+        "endUtc": "2026-09-29T07:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T07:45:00Z",
+        "startUtc": "2026-09-29T07:45:00Z",
+        "endUtc": "2026-09-29T07:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T08:05:00Z",
+        "startUtc": "2026-09-29T08:05:00Z",
+        "endUtc": "2026-09-29T08:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 69.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T08:25:00Z",
+        "startUtc": "2026-09-29T08:25:00Z",
+        "endUtc": "2026-09-29T08:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T08:45:00Z",
+        "startUtc": "2026-09-29T08:45:00Z",
+        "endUtc": "2026-09-29T08:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T09:05:00Z",
+        "startUtc": "2026-09-29T09:05:00Z",
+        "endUtc": "2026-09-29T09:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T09:25:00Z",
+        "startUtc": "2026-09-29T09:25:00Z",
+        "endUtc": "2026-09-29T09:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T09:45:00Z",
+        "startUtc": "2026-09-29T09:45:00Z",
+        "endUtc": "2026-09-29T09:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T10:05:00Z",
+        "startUtc": "2026-09-29T10:05:00Z",
+        "endUtc": "2026-09-29T10:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T10:25:00Z",
+        "startUtc": "2026-09-29T10:25:00Z",
+        "endUtc": "2026-09-29T10:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 76.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T10:45:00Z",
+        "startUtc": "2026-09-29T10:45:00Z",
+        "endUtc": "2026-09-29T10:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T11:05:00Z",
+        "startUtc": "2026-09-29T11:05:00Z",
+        "endUtc": "2026-09-29T11:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T11:25:00Z",
+        "startUtc": "2026-09-29T11:25:00Z",
+        "endUtc": "2026-09-29T11:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T11:45:00Z",
+        "startUtc": "2026-09-29T11:45:00Z",
+        "endUtc": "2026-09-29T11:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T12:05:00Z",
+        "startUtc": "2026-09-29T12:05:00Z",
+        "endUtc": "2026-09-29T12:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T12:25:00Z",
+        "startUtc": "2026-09-29T12:25:00Z",
+        "endUtc": "2026-09-29T12:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T12:45:00Z",
+        "startUtc": "2026-09-29T12:45:00Z",
+        "endUtc": "2026-09-29T12:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T13:05:00Z",
+        "startUtc": "2026-09-29T13:05:00Z",
+        "endUtc": "2026-09-29T13:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T13:25:00Z",
+        "startUtc": "2026-09-29T13:25:00Z",
+        "endUtc": "2026-09-29T13:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T13:45:00Z",
+        "startUtc": "2026-09-29T13:45:00Z",
+        "endUtc": "2026-09-29T13:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T14:05:00Z",
+        "startUtc": "2026-09-29T14:05:00Z",
+        "endUtc": "2026-09-29T14:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 68.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T14:25:00Z",
+        "startUtc": "2026-09-29T14:25:00Z",
+        "endUtc": "2026-09-29T14:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T14:45:00Z",
+        "startUtc": "2026-09-29T14:45:00Z",
+        "endUtc": "2026-09-29T14:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T15:05:00Z",
+        "startUtc": "2026-09-29T15:05:00Z",
+        "endUtc": "2026-09-29T15:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 69.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T15:25:00Z",
+        "startUtc": "2026-09-29T15:25:00Z",
+        "endUtc": "2026-09-29T15:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 76.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T15:45:00Z",
+        "startUtc": "2026-09-29T15:45:00Z",
+        "endUtc": "2026-09-29T15:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T16:05:00Z",
+        "startUtc": "2026-09-29T16:05:00Z",
+        "endUtc": "2026-09-29T16:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T16:25:00Z",
+        "startUtc": "2026-09-29T16:25:00Z",
+        "endUtc": "2026-09-29T16:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T16:45:00Z",
+        "startUtc": "2026-09-29T16:45:00Z",
+        "endUtc": "2026-09-29T16:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T17:05:00Z",
+        "startUtc": "2026-09-29T17:05:00Z",
+        "endUtc": "2026-09-29T17:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T17:25:00Z",
+        "startUtc": "2026-09-29T17:25:00Z",
+        "endUtc": "2026-09-29T17:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T17:45:00Z",
+        "startUtc": "2026-09-29T17:45:00Z",
+        "endUtc": "2026-09-29T17:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T18:05:00Z",
+        "startUtc": "2026-09-29T18:05:00Z",
+        "endUtc": "2026-09-29T18:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T18:25:00Z",
+        "startUtc": "2026-09-29T18:25:00Z",
+        "endUtc": "2026-09-29T18:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T18:45:00Z",
+        "startUtc": "2026-09-29T18:45:00Z",
+        "endUtc": "2026-09-29T18:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T19:05:00Z",
+        "startUtc": "2026-09-29T19:05:00Z",
+        "endUtc": "2026-09-29T19:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T19:25:00Z",
+        "startUtc": "2026-09-29T19:25:00Z",
+        "endUtc": "2026-09-29T19:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T19:45:00Z",
+        "startUtc": "2026-09-29T19:45:00Z",
+        "endUtc": "2026-09-29T19:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T20:05:00Z",
+        "startUtc": "2026-09-29T20:05:00Z",
+        "endUtc": "2026-09-29T20:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T20:25:00Z",
+        "startUtc": "2026-09-29T20:25:00Z",
+        "endUtc": "2026-09-29T20:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 76.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T20:45:00Z",
+        "startUtc": "2026-09-29T20:45:00Z",
+        "endUtc": "2026-09-29T20:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T21:05:00Z",
+        "startUtc": "2026-09-29T21:05:00Z",
+        "endUtc": "2026-09-29T21:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 68.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T21:25:00Z",
+        "startUtc": "2026-09-29T21:25:00Z",
+        "endUtc": "2026-09-29T21:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T21:45:00Z",
+        "startUtc": "2026-09-29T21:45:00Z",
+        "endUtc": "2026-09-29T21:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T22:05:00Z",
+        "startUtc": "2026-09-29T22:05:00Z",
+        "endUtc": "2026-09-29T22:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 69.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T22:25:00Z",
+        "startUtc": "2026-09-29T22:25:00Z",
+        "endUtc": "2026-09-29T22:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T22:45:00Z",
+        "startUtc": "2026-09-29T22:45:00Z",
+        "endUtc": "2026-09-29T22:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T23:05:00Z",
+        "startUtc": "2026-09-29T23:05:00Z",
+        "endUtc": "2026-09-29T23:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T23:25:00Z",
+        "startUtc": "2026-09-29T23:25:00Z",
+        "endUtc": "2026-09-29T23:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-29T23:45:00Z",
+        "startUtc": "2026-09-29T23:45:00Z",
+        "endUtc": "2026-09-29T23:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T00:05:00Z",
+        "startUtc": "2026-09-30T00:05:00Z",
+        "endUtc": "2026-09-30T00:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T00:25:00Z",
+        "startUtc": "2026-09-30T00:25:00Z",
+        "endUtc": "2026-09-30T00:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T00:45:00Z",
+        "startUtc": "2026-09-30T00:45:00Z",
+        "endUtc": "2026-09-30T00:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T01:05:00Z",
+        "startUtc": "2026-09-30T01:05:00Z",
+        "endUtc": "2026-09-30T01:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T01:25:00Z",
+        "startUtc": "2026-09-30T01:25:00Z",
+        "endUtc": "2026-09-30T01:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 76.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T01:45:00Z",
+        "startUtc": "2026-09-30T01:45:00Z",
+        "endUtc": "2026-09-30T01:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T02:05:00Z",
+        "startUtc": "2026-09-30T02:05:00Z",
+        "endUtc": "2026-09-30T02:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T02:25:00Z",
+        "startUtc": "2026-09-30T02:25:00Z",
+        "endUtc": "2026-09-30T02:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T02:45:00Z",
+        "startUtc": "2026-09-30T02:45:00Z",
+        "endUtc": "2026-09-30T02:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T03:05:00Z",
+        "startUtc": "2026-09-30T03:05:00Z",
+        "endUtc": "2026-09-30T03:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T03:25:00Z",
+        "startUtc": "2026-09-30T03:25:00Z",
+        "endUtc": "2026-09-30T03:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T03:45:00Z",
+        "startUtc": "2026-09-30T03:45:00Z",
+        "endUtc": "2026-09-30T03:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T04:05:00Z",
+        "startUtc": "2026-09-30T04:05:00Z",
+        "endUtc": "2026-09-30T04:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 68.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T04:25:00Z",
+        "startUtc": "2026-09-30T04:25:00Z",
+        "endUtc": "2026-09-30T04:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T04:45:00Z",
+        "startUtc": "2026-09-30T04:45:00Z",
+        "endUtc": "2026-09-30T04:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T05:05:00Z",
+        "startUtc": "2026-09-30T05:05:00Z",
+        "endUtc": "2026-09-30T05:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 69.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T05:25:00Z",
+        "startUtc": "2026-09-30T05:25:00Z",
+        "endUtc": "2026-09-30T05:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T05:45:00Z",
+        "startUtc": "2026-09-30T05:45:00Z",
+        "endUtc": "2026-09-30T05:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T06:05:00Z",
+        "startUtc": "2026-09-30T06:05:00Z",
+        "endUtc": "2026-09-30T06:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 70.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T06:25:00Z",
+        "startUtc": "2026-09-30T06:25:00Z",
+        "endUtc": "2026-09-30T06:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 76.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T06:45:00Z",
+        "startUtc": "2026-09-30T06:45:00Z",
+        "endUtc": "2026-09-30T06:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T07:05:00Z",
+        "startUtc": "2026-09-30T07:05:00Z",
+        "endUtc": "2026-09-30T07:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 71.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T07:25:00Z",
+        "startUtc": "2026-09-30T07:25:00Z",
+        "endUtc": "2026-09-30T07:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T07:45:00Z",
+        "startUtc": "2026-09-30T07:45:00Z",
+        "endUtc": "2026-09-30T07:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T08:05:00Z",
+        "startUtc": "2026-09-30T08:05:00Z",
+        "endUtc": "2026-09-30T08:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 72.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T08:25:00Z",
+        "startUtc": "2026-09-30T08:25:00Z",
+        "endUtc": "2026-09-30T08:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T08:45:00Z",
+        "startUtc": "2026-09-30T08:45:00Z",
+        "endUtc": "2026-09-30T08:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T09:05:00Z",
+        "startUtc": "2026-09-30T09:05:00Z",
+        "endUtc": "2026-09-30T09:05:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 73.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T09:25:00Z",
+        "startUtc": "2026-09-30T09:25:00Z",
+        "endUtc": "2026-09-30T09:25:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 74.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "hr-2026-09-30T09:45:00Z",
+        "startUtc": "2026-09-30T09:45:00Z",
+        "endUtc": "2026-09-30T09:45:00Z",
+        "zoneOffsetMinutes": 420,
+        "bpm": 75.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      }
+    ],
+    "stepIntervals": [
+      {
+        "recordId": "step-2026-09-28T10:00:00Z",
+        "startUtc": "2026-09-28T10:00:00Z",
+        "endUtc": "2026-09-28T11:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 180,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-28T11:00:00Z",
+        "startUtc": "2026-09-28T11:00:00Z",
+        "endUtc": "2026-09-28T12:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 197,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-28T12:00:00Z",
+        "startUtc": "2026-09-28T12:00:00Z",
+        "endUtc": "2026-09-28T13:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 214,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-28T13:00:00Z",
+        "startUtc": "2026-09-28T13:00:00Z",
+        "endUtc": "2026-09-28T14:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 231,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-28T14:00:00Z",
+        "startUtc": "2026-09-28T14:00:00Z",
+        "endUtc": "2026-09-28T15:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 248,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-28T15:00:00Z",
+        "startUtc": "2026-09-28T15:00:00Z",
+        "endUtc": "2026-09-28T16:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 265,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-28T16:00:00Z",
+        "startUtc": "2026-09-28T16:00:00Z",
+        "endUtc": "2026-09-28T17:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 282,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-28T17:00:00Z",
+        "startUtc": "2026-09-28T17:00:00Z",
+        "endUtc": "2026-09-28T18:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 299,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-28T18:00:00Z",
+        "startUtc": "2026-09-28T18:00:00Z",
+        "endUtc": "2026-09-28T19:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 316,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-28T19:00:00Z",
+        "startUtc": "2026-09-28T19:00:00Z",
+        "endUtc": "2026-09-28T20:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 333,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-28T20:00:00Z",
+        "startUtc": "2026-09-28T20:00:00Z",
+        "endUtc": "2026-09-28T21:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 350,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-28T21:00:00Z",
+        "startUtc": "2026-09-28T21:00:00Z",
+        "endUtc": "2026-09-28T22:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 367,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-28T22:00:00Z",
+        "startUtc": "2026-09-28T22:00:00Z",
+        "endUtc": "2026-09-28T23:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 384,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-28T23:00:00Z",
+        "startUtc": "2026-09-28T23:00:00Z",
+        "endUtc": "2026-09-29T00:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 401,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T00:00:00Z",
+        "startUtc": "2026-09-29T00:00:00Z",
+        "endUtc": "2026-09-29T01:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 418,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T01:00:00Z",
+        "startUtc": "2026-09-29T01:00:00Z",
+        "endUtc": "2026-09-29T02:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 435,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T02:00:00Z",
+        "startUtc": "2026-09-29T02:00:00Z",
+        "endUtc": "2026-09-29T03:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 452,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T03:00:00Z",
+        "startUtc": "2026-09-29T03:00:00Z",
+        "endUtc": "2026-09-29T04:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 469,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T04:00:00Z",
+        "startUtc": "2026-09-29T04:00:00Z",
+        "endUtc": "2026-09-29T05:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 486,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T05:00:00Z",
+        "startUtc": "2026-09-29T05:00:00Z",
+        "endUtc": "2026-09-29T06:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 503,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T06:00:00Z",
+        "startUtc": "2026-09-29T06:00:00Z",
+        "endUtc": "2026-09-29T07:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 520,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T07:00:00Z",
+        "startUtc": "2026-09-29T07:00:00Z",
+        "endUtc": "2026-09-29T08:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 537,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T08:00:00Z",
+        "startUtc": "2026-09-29T08:00:00Z",
+        "endUtc": "2026-09-29T09:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 554,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T09:00:00Z",
+        "startUtc": "2026-09-29T09:00:00Z",
+        "endUtc": "2026-09-29T10:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 571,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T10:00:00Z",
+        "startUtc": "2026-09-29T10:00:00Z",
+        "endUtc": "2026-09-29T11:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 188,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T11:00:00Z",
+        "startUtc": "2026-09-29T11:00:00Z",
+        "endUtc": "2026-09-29T12:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 205,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T12:00:00Z",
+        "startUtc": "2026-09-29T12:00:00Z",
+        "endUtc": "2026-09-29T13:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 222,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T13:00:00Z",
+        "startUtc": "2026-09-29T13:00:00Z",
+        "endUtc": "2026-09-29T14:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 239,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T14:00:00Z",
+        "startUtc": "2026-09-29T14:00:00Z",
+        "endUtc": "2026-09-29T15:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 256,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T15:00:00Z",
+        "startUtc": "2026-09-29T15:00:00Z",
+        "endUtc": "2026-09-29T16:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 273,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T16:00:00Z",
+        "startUtc": "2026-09-29T16:00:00Z",
+        "endUtc": "2026-09-29T17:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 290,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T17:00:00Z",
+        "startUtc": "2026-09-29T17:00:00Z",
+        "endUtc": "2026-09-29T18:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 307,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T18:00:00Z",
+        "startUtc": "2026-09-29T18:00:00Z",
+        "endUtc": "2026-09-29T19:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 324,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T19:00:00Z",
+        "startUtc": "2026-09-29T19:00:00Z",
+        "endUtc": "2026-09-29T20:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 341,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T20:00:00Z",
+        "startUtc": "2026-09-29T20:00:00Z",
+        "endUtc": "2026-09-29T21:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 358,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T21:00:00Z",
+        "startUtc": "2026-09-29T21:00:00Z",
+        "endUtc": "2026-09-29T22:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 375,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T22:00:00Z",
+        "startUtc": "2026-09-29T22:00:00Z",
+        "endUtc": "2026-09-29T23:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 392,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-29T23:00:00Z",
+        "startUtc": "2026-09-29T23:00:00Z",
+        "endUtc": "2026-09-30T00:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 409,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-30T00:00:00Z",
+        "startUtc": "2026-09-30T00:00:00Z",
+        "endUtc": "2026-09-30T01:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 426,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-30T01:00:00Z",
+        "startUtc": "2026-09-30T01:00:00Z",
+        "endUtc": "2026-09-30T02:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 443,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-30T02:00:00Z",
+        "startUtc": "2026-09-30T02:00:00Z",
+        "endUtc": "2026-09-30T03:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 460,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-30T03:00:00Z",
+        "startUtc": "2026-09-30T03:00:00Z",
+        "endUtc": "2026-09-30T04:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 477,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-30T04:00:00Z",
+        "startUtc": "2026-09-30T04:00:00Z",
+        "endUtc": "2026-09-30T05:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 494,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-30T05:00:00Z",
+        "startUtc": "2026-09-30T05:00:00Z",
+        "endUtc": "2026-09-30T06:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 511,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-30T06:00:00Z",
+        "startUtc": "2026-09-30T06:00:00Z",
+        "endUtc": "2026-09-30T07:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 528,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-30T07:00:00Z",
+        "startUtc": "2026-09-30T07:00:00Z",
+        "endUtc": "2026-09-30T08:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 545,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-30T08:00:00Z",
+        "startUtc": "2026-09-30T08:00:00Z",
+        "endUtc": "2026-09-30T09:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 562,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-2026-09-30T09:00:00Z",
+        "startUtc": "2026-09-30T09:00:00Z",
+        "endUtc": "2026-09-30T10:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 579,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "step-delayed-683",
+        "startUtc": "2026-09-29T04:00:00Z",
+        "endUtc": "2026-09-29T05:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "count": 683,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      }
+    ],
+    "restingHeartRateRecords": [
+      {
+        "recordId": "rhr-d1",
+        "recordedAtUtc": "2026-09-29T01:10:00Z",
+        "zoneOffsetMinutes": 420,
+        "localDate": "2026-09-29",
+        "bpm": 58.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      }
+    ],
+    "sleepSessions": [
+      {
+        "recordId": "sleep-d1",
+        "startUtc": "2026-09-28T15:00:00Z",
+        "endUtc": "2026-09-28T23:30:00Z",
+        "zoneOffsetMinutes": 420,
+        "healthDay": "2026-09-29",
+        "stages": [
+          {
+            "startUtc": "2026-09-28T15:00:00Z",
+            "endUtc": "2026-09-28T15:20:00Z",
+            "type": "awake"
+          },
+          {
+            "startUtc": "2026-09-28T15:20:00Z",
+            "endUtc": "2026-09-28T17:20:00Z",
+            "type": "light"
+          },
+          {
+            "startUtc": "2026-09-28T17:20:00Z",
+            "endUtc": "2026-09-28T19:00:00Z",
+            "type": "deep"
+          },
+          {
+            "startUtc": "2026-09-28T19:00:00Z",
+            "endUtc": "2026-09-28T21:00:00Z",
+            "type": "rem"
+          },
+          {
+            "startUtc": "2026-09-28T21:00:00Z",
+            "endUtc": "2026-09-28T23:30:00Z",
+            "type": "light"
+          }
+        ],
+        "asleepMinutesAggregate": 490,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      }
+    ],
+    "exerciseSessions": [
+      {
+        "recordId": "ex-walk-001",
+        "startUtc": "2026-09-30T01:00:00Z",
+        "endUtc": "2026-09-30T01:40:00Z",
+        "zoneOffsetMinutes": 420,
+        "type": "walking",
+        "title": "\u0110i b\u1ed9 s\u00e1ng",
+        "durationMinutes": 40,
+        "calories": 128.0,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      }
+    ],
+    "activeCaloriesIntervals": [
+      {
+        "recordId": "cal-2026-09-28T10:00:00Z",
+        "startUtc": "2026-09-28T10:00:00Z",
+        "endUtc": "2026-09-28T11:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 8.5,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-28T11:00:00Z",
+        "startUtc": "2026-09-28T11:00:00Z",
+        "endUtc": "2026-09-28T12:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 9.7,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-28T12:00:00Z",
+        "startUtc": "2026-09-28T12:00:00Z",
+        "endUtc": "2026-09-28T13:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 10.9,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-28T13:00:00Z",
+        "startUtc": "2026-09-28T13:00:00Z",
+        "endUtc": "2026-09-28T14:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 12.1,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-28T14:00:00Z",
+        "startUtc": "2026-09-28T14:00:00Z",
+        "endUtc": "2026-09-28T15:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 13.3,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-28T15:00:00Z",
+        "startUtc": "2026-09-28T15:00:00Z",
+        "endUtc": "2026-09-28T16:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 14.5,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-28T16:00:00Z",
+        "startUtc": "2026-09-28T16:00:00Z",
+        "endUtc": "2026-09-28T17:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 15.7,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-28T17:00:00Z",
+        "startUtc": "2026-09-28T17:00:00Z",
+        "endUtc": "2026-09-28T18:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 16.9,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-28T18:00:00Z",
+        "startUtc": "2026-09-28T18:00:00Z",
+        "endUtc": "2026-09-28T19:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 18.1,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-28T19:00:00Z",
+        "startUtc": "2026-09-28T19:00:00Z",
+        "endUtc": "2026-09-28T20:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 8.5,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-28T20:00:00Z",
+        "startUtc": "2026-09-28T20:00:00Z",
+        "endUtc": "2026-09-28T21:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 9.7,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-28T21:00:00Z",
+        "startUtc": "2026-09-28T21:00:00Z",
+        "endUtc": "2026-09-28T22:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 10.9,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-28T22:00:00Z",
+        "startUtc": "2026-09-28T22:00:00Z",
+        "endUtc": "2026-09-28T23:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 12.1,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-28T23:00:00Z",
+        "startUtc": "2026-09-28T23:00:00Z",
+        "endUtc": "2026-09-29T00:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 13.3,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T00:00:00Z",
+        "startUtc": "2026-09-29T00:00:00Z",
+        "endUtc": "2026-09-29T01:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 14.5,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T01:00:00Z",
+        "startUtc": "2026-09-29T01:00:00Z",
+        "endUtc": "2026-09-29T02:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 15.7,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T02:00:00Z",
+        "startUtc": "2026-09-29T02:00:00Z",
+        "endUtc": "2026-09-29T03:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 16.9,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T03:00:00Z",
+        "startUtc": "2026-09-29T03:00:00Z",
+        "endUtc": "2026-09-29T04:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 18.1,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T04:00:00Z",
+        "startUtc": "2026-09-29T04:00:00Z",
+        "endUtc": "2026-09-29T05:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 8.5,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T05:00:00Z",
+        "startUtc": "2026-09-29T05:00:00Z",
+        "endUtc": "2026-09-29T06:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 9.7,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T06:00:00Z",
+        "startUtc": "2026-09-29T06:00:00Z",
+        "endUtc": "2026-09-29T07:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 10.9,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T07:00:00Z",
+        "startUtc": "2026-09-29T07:00:00Z",
+        "endUtc": "2026-09-29T08:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 12.1,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T08:00:00Z",
+        "startUtc": "2026-09-29T08:00:00Z",
+        "endUtc": "2026-09-29T09:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 13.3,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T09:00:00Z",
+        "startUtc": "2026-09-29T09:00:00Z",
+        "endUtc": "2026-09-29T10:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 14.5,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T10:00:00Z",
+        "startUtc": "2026-09-29T10:00:00Z",
+        "endUtc": "2026-09-29T11:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 15.7,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T11:00:00Z",
+        "startUtc": "2026-09-29T11:00:00Z",
+        "endUtc": "2026-09-29T12:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 16.9,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T12:00:00Z",
+        "startUtc": "2026-09-29T12:00:00Z",
+        "endUtc": "2026-09-29T13:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 18.1,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T13:00:00Z",
+        "startUtc": "2026-09-29T13:00:00Z",
+        "endUtc": "2026-09-29T14:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 8.5,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T14:00:00Z",
+        "startUtc": "2026-09-29T14:00:00Z",
+        "endUtc": "2026-09-29T15:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 9.7,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T15:00:00Z",
+        "startUtc": "2026-09-29T15:00:00Z",
+        "endUtc": "2026-09-29T16:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 10.9,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T16:00:00Z",
+        "startUtc": "2026-09-29T16:00:00Z",
+        "endUtc": "2026-09-29T17:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 12.1,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T17:00:00Z",
+        "startUtc": "2026-09-29T17:00:00Z",
+        "endUtc": "2026-09-29T18:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 13.3,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T18:00:00Z",
+        "startUtc": "2026-09-29T18:00:00Z",
+        "endUtc": "2026-09-29T19:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 14.5,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T19:00:00Z",
+        "startUtc": "2026-09-29T19:00:00Z",
+        "endUtc": "2026-09-29T20:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 15.7,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T20:00:00Z",
+        "startUtc": "2026-09-29T20:00:00Z",
+        "endUtc": "2026-09-29T21:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 16.9,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T21:00:00Z",
+        "startUtc": "2026-09-29T21:00:00Z",
+        "endUtc": "2026-09-29T22:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 18.1,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T22:00:00Z",
+        "startUtc": "2026-09-29T22:00:00Z",
+        "endUtc": "2026-09-29T23:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 8.5,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-29T23:00:00Z",
+        "startUtc": "2026-09-29T23:00:00Z",
+        "endUtc": "2026-09-30T00:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 9.7,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-30T00:00:00Z",
+        "startUtc": "2026-09-30T00:00:00Z",
+        "endUtc": "2026-09-30T01:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 10.9,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-30T01:00:00Z",
+        "startUtc": "2026-09-30T01:00:00Z",
+        "endUtc": "2026-09-30T02:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 12.1,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-30T02:00:00Z",
+        "startUtc": "2026-09-30T02:00:00Z",
+        "endUtc": "2026-09-30T03:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 13.3,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-30T03:00:00Z",
+        "startUtc": "2026-09-30T03:00:00Z",
+        "endUtc": "2026-09-30T04:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 14.5,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-30T04:00:00Z",
+        "startUtc": "2026-09-30T04:00:00Z",
+        "endUtc": "2026-09-30T05:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 15.7,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-30T05:00:00Z",
+        "startUtc": "2026-09-30T05:00:00Z",
+        "endUtc": "2026-09-30T06:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 16.9,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-30T06:00:00Z",
+        "startUtc": "2026-09-30T06:00:00Z",
+        "endUtc": "2026-09-30T07:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 18.1,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-30T07:00:00Z",
+        "startUtc": "2026-09-30T07:00:00Z",
+        "endUtc": "2026-09-30T08:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 8.5,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-30T08:00:00Z",
+        "startUtc": "2026-09-30T08:00:00Z",
+        "endUtc": "2026-09-30T09:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 9.7,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      },
+      {
+        "recordId": "cal-2026-09-30T09:00:00Z",
+        "startUtc": "2026-09-30T09:00:00Z",
+        "endUtc": "2026-09-30T10:00:00Z",
+        "zoneOffsetMinutes": 420,
+        "kilocalories": 10.9,
+        "source": {
+          "sourceId": "healthsync.huawei.band10",
+          "sourceName": "Health Sync"
+        },
+        "modifiedAtUtc": "2026-09-30T10:00:00Z"
+      }
+    ]
+  }
+}
