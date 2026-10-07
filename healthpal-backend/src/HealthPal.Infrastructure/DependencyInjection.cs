@@ -6,6 +6,7 @@ using HealthPal.Infrastructure.Profile;
 using HealthPal.Infrastructure.Query;
 using HealthPal.Infrastructure.Sync;
 using HealthPal.Infrastructure.Time;
+using HealthPal.Infrastructure.Training;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -25,6 +26,7 @@ public static class DependencyInjection
         services.AddScoped<IProfileService, ProfileService>();
         services.AddScoped<ISyncService, SyncService>();
         services.AddScoped<IHealthQueryService, HealthQueryService>();
+        services.AddScoped<ITrainingService, TrainingService>();
 
         services.AddDbContext<HealthPalDbContext>((provider, options) =>
         {

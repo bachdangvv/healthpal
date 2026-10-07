@@ -25,6 +25,8 @@ Future<void> main() async {
       historyRepository: dependencies.historyRepository,
       profileRepository: dependencies.profileRepository,
       dashboardRepository: dependencies.dashboardRepository,
+      trainingReadinessRepository: dependencies.trainingReadinessRepository,
+      exerciseRepository: dependencies.exerciseRepository,
       runtimeFactory: dependencies.runtimeFactory,
       restoreOnStart: true,
       fatalStartupError: dependencies.fatalStartupError,

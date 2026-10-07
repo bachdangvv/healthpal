@@ -87,6 +87,9 @@ All health/profile routes take the user id from the JWT only.
 | GET | `/api/v1/assessments/latest` |
 | GET | `/api/v1/history?from=YYYY-MM-DD&to=YYYY-MM-DD` |
 | GET | `/api/v1/exercises?from=YYYY-MM-DD&to=YYYY-MM-DD` |
+| GET | `/api/v1/training/readiness?localDate=YYYY-MM-DD` |
+| GET | `/api/v1/training/exercises?muscleGroup=legs&query=squat` |
+| PUT | `/api/v1/training/exercises/{exerciseId}/favorite` |
 
 Committed OpenAPI snapshot: `openapi/healthpal-v1.json`.
 

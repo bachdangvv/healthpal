@@ -17,6 +17,13 @@ import 'package:healthpal/features/history/data/health_history_repository.dart';
 import 'package:healthpal/features/profile/data/api_profile_repository.dart';
 import 'package:healthpal/features/profile/data/demo_profile_repository.dart';
 import 'package:healthpal/features/profile/data/profile_repository.dart';
+import 'package:healthpal/features/training/data/api_exercise_repository.dart';
+import 'package:healthpal/features/training/data/api_training_readiness_repository.dart';
+import 'package:healthpal/features/training/data/demo_exercise_repository.dart';
+import 'package:healthpal/features/training/data/health_connect_training_readiness_repository.dart';
+import 'package:healthpal/features/training/data/exercise_repository.dart';
+import 'package:healthpal/features/training/data/training_readiness_repository.dart';
+import 'package:healthpal/features/training/domain/training_models.dart';
 
 class AppDependencies {
   AppDependencies({
@@ -24,6 +31,8 @@ class AppDependencies {
     this.historyRepository,
     required this.profileRepository,
     this.dashboardRepository,
+    this.trainingReadinessRepository,
+    this.exerciseRepository,
     this.database,
     this.runtimeFactory,
     this.fatalStartupError,
@@ -33,6 +42,8 @@ class AppDependencies {
   final HealthHistoryRepository? historyRepository;
   final ProfileRepository profileRepository;
   final HealthConnectRepository? dashboardRepository;
+  final TrainingReadinessRepository? trainingReadinessRepository;
+  final ExerciseRepository? exerciseRepository;
   final HealthPalDatabase? database;
   final UserHealthRuntimeFactory? runtimeFactory;
   final String? fatalStartupError;
@@ -44,6 +55,11 @@ class AppDependencies {
         historyRepository: DemoHealthHistoryRepository(),
         profileRepository: DemoProfileRepository(),
         dashboardRepository: const DemoHealthConnectRepository(),
+        trainingReadinessRepository: HealthConnectTrainingReadinessRepository(
+          healthConnectRepository: const DemoHealthConnectRepository(),
+          stressService: const UnavailableStressAssessmentService(),
+        ),
+        exerciseRepository: DemoExerciseRepository(),
       );
     }
 
@@ -63,6 +79,8 @@ class AppDependencies {
       return AppDependencies(
         authRepository: authRepository,
         profileRepository: ApiProfileRepository(client: client),
+        trainingReadinessRepository: ApiTrainingReadinessRepository(client: client),
+        exerciseRepository: ApiExerciseRepository(client: client),
         fatalStartupError: error.message,
       );
     }
@@ -76,6 +94,8 @@ class AppDependencies {
           client: client,
           settingsStore: settings,
         ),
+        trainingReadinessRepository: ApiTrainingReadinessRepository(client: client),
+        exerciseRepository: ApiExerciseRepository(client: client),
         database: database,
         runtimeFactory: UserHealthRuntimeFactory(
           database: database,
@@ -87,6 +107,8 @@ class AppDependencies {
       return AppDependencies(
         authRepository: authRepository,
         profileRepository: ApiProfileRepository(client: client),
+        trainingReadinessRepository: ApiTrainingReadinessRepository(client: client),
+        exerciseRepository: ApiExerciseRepository(client: client),
         fatalStartupError:
             'Không thể mở cơ sở dữ liệu cục bộ. Hãy đóng ứng dụng và thử lại.',
       );

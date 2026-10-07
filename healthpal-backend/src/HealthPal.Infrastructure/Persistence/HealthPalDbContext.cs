@@ -24,6 +24,8 @@ public sealed class HealthPalDbContext : IdentityDbContext<ApplicationUser>
     public DbSet<HourlyHealthBin> HourlyHealthBins => Set<HourlyHealthBin>();
     public DbSet<DailyHealthSummary> DailyHealthSummaries => Set<DailyHealthSummary>();
     public DbSet<ExerciseSession> ExerciseSessions => Set<ExerciseSession>();
+    public DbSet<ExerciseCatalogItem> ExerciseCatalogItems => Set<ExerciseCatalogItem>();
+    public DbSet<UserExerciseFavorite> UserExerciseFavorites => Set<UserExerciseFavorite>();
     public DbSet<FatigueAssessment> FatigueAssessments => Set<FatigueAssessment>();
     public DbSet<SyncBatch> SyncBatches => Set<SyncBatch>();
 
@@ -63,6 +65,11 @@ public sealed class HealthPalDbContext : IdentityDbContext<ApplicationUser>
                 .OnDelete(DeleteBehavior.Cascade);
 
             entity.HasMany<ExerciseSession>()
+                .WithOne()
+                .HasForeignKey(e => e.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            entity.HasMany<UserExerciseFavorite>()
                 .WithOne()
                 .HasForeignKey(e => e.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
@@ -185,6 +192,42 @@ public sealed class HealthPalDbContext : IdentityDbContext<ApplicationUser>
             entity.Property(e => e.EndUtc).HasConversion(utcConverter);
             entity.HasIndex(e => new { e.UserId, e.ExternalRecordId }).IsUnique();
             entity.HasIndex(e => new { e.UserId, e.StartUtc });
+        });
+
+        builder.Entity<ExerciseCatalogItem>(entity =>
+        {
+            entity.ToTable("exercise_catalog_items");
+            entity.HasKey(e => e.Id);
+            entity.Property(e => e.Id).HasMaxLength(64);
+            entity.Property(e => e.Name).HasMaxLength(160).IsRequired();
+            entity.Property(e => e.EnglishName).HasMaxLength(160);
+            entity.Property(e => e.MuscleGroup).HasMaxLength(32).IsRequired();
+            entity.Property(e => e.ExerciseType).HasMaxLength(64).IsRequired();
+            entity.Property(e => e.Equipment).HasMaxLength(128).IsRequired();
+            entity.Property(e => e.Instructions).HasMaxLength(4000).IsRequired();
+            entity.HasIndex(e => new { e.IsActive, e.MuscleGroup });
+            entity.HasData(
+                new ExerciseCatalogItem { Id = "push-up", Name = "Hít đất", EnglishName = "Push-up", MuscleGroup = "chest", ExerciseType = "Strength", Equipment = "Không dụng cụ", Instructions = "Giữ thân người thẳng, hạ ngực có kiểm soát rồi đẩy trở lại.", IsActive = true },
+                new ExerciseCatalogItem { Id = "bodyweight-squat", Name = "Squat không tạ", EnglishName = "Bodyweight Squat", MuscleGroup = "legs", ExerciseType = "Strength", Equipment = "Không dụng cụ", Instructions = "Đẩy hông ra sau, hạ người đến mức thoải mái rồi đứng lên bằng lực chân.", IsActive = true },
+                new ExerciseCatalogItem { Id = "reverse-lunge", Name = "Chùng chân ngược", EnglishName = "Reverse Lunge", MuscleGroup = "legs", ExerciseType = "Strength", Equipment = "Không dụng cụ", Instructions = "Bước một chân ra sau, hạ gối có kiểm soát và giữ thân người ổn định.", IsActive = true },
+                new ExerciseCatalogItem { Id = "plank", Name = "Plank", EnglishName = "Plank", MuscleGroup = "core", ExerciseType = "Isometric", Equipment = "Không dụng cụ", Instructions = "Siết cơ bụng, giữ đầu-cổ-lưng-hông trên một đường thẳng.", IsActive = true },
+                new ExerciseCatalogItem { Id = "band-row", Name = "Kéo dây kháng lực", EnglishName = "Resistance Band Row", MuscleGroup = "back", ExerciseType = "Strength", Equipment = "Dây kháng lực", Instructions = "Kéo khuỷu tay về sau, siết bả vai rồi trả dây chậm.", IsActive = true },
+                new ExerciseCatalogItem { Id = "shoulder-press", Name = "Đẩy vai", EnglishName = "Shoulder Press", MuscleGroup = "shoulder", ExerciseType = "Strength", Equipment = "Tạ tay", Instructions = "Đẩy tạ lên trên đầu, không khóa cứng khuỷu tay và hạ xuống có kiểm soát.", IsActive = true },
+                new ExerciseCatalogItem { Id = "bicep-curl", Name = "Cuốn tay trước", EnglishName = "Bicep Curl", MuscleGroup = "arms", ExerciseType = "Strength", Equipment = "Tạ tay", Instructions = "Giữ khuỷu tay sát thân, cuốn tạ lên rồi hạ chậm.", IsActive = true },
+                new ExerciseCatalogItem { Id = "brisk-walk", Name = "Đi bộ nhanh", EnglishName = "Brisk Walk", MuscleGroup = "cardio", ExerciseType = "Cardio", Equipment = "Không dụng cụ", Instructions = "Đi với tốc độ nhanh vừa đủ để nhịp tim tăng nhưng vẫn nói được câu ngắn.", IsActive = true });
+        });
+
+        builder.Entity<UserExerciseFavorite>(entity =>
+        {
+            entity.ToTable("user_exercise_favorites");
+            entity.HasKey(e => new { e.UserId, e.ExerciseId });
+            entity.Property(e => e.UserId).HasMaxLength(450);
+            entity.Property(e => e.ExerciseId).HasMaxLength(64);
+            entity.Property(e => e.CreatedAtUtc).HasConversion(utcConverter);
+            entity.HasOne<ExerciseCatalogItem>()
+                .WithMany()
+                .HasForeignKey(e => e.ExerciseId)
+                .OnDelete(DeleteBehavior.Cascade);
         });
 
         var missingReasonsConverter = new ValueConverter<List<string>, string>(

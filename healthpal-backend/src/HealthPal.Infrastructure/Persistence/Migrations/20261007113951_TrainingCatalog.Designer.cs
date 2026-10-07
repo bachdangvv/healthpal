@@ -3,6 +3,7 @@ using System;
 using HealthPal.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace HealthPal.Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(HealthPalDbContext))]
-    partial class HealthPalDbContextModelSnapshot : ModelSnapshot
+    [Migration("20261007113951_TrainingCatalog")]
+    partial class TrainingCatalog
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
